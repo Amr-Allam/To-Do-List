@@ -81,6 +81,11 @@ main {
 .todo-input-container input[type="text"]:focus::placeholder {
   color: transparent;
 }
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 50px #1d1825 inset;
+  -webkit-text-fill-color: var(--main-color);
+}
+
 .todo-input-container .btn-add {
   width: 40px;
   height: 40px;
